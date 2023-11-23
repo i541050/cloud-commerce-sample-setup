@@ -13,10 +13,34 @@
       "enabledRepositories": ["spartacus-6"]
     },
     {
+      "name": "spartacusstoreCSR",
+      "path": "spartacusstore",
+      "ssr": {
+        "enabled": false,
+        "path": "dist/spartacusstore/server/main.js"
+      },
+      "csr": {
+        "webroot": "dist/spartacusstore/browser/"
+      },
+      "enabledRepositories": ["spartacus-6"]
+    },
+    {
       "name": "b2bspastore",
       "path": "b2bspastore",
       "ssr": {
         "enabled": true,
+        "path": "dist/b2bspastore/server/main.js"
+      },
+      "csr": {
+        "webroot": "dist/b2bspastore/browser/"
+      },
+      "enabledRepositories": ["spartacus-6"]
+    },
+    {
+      "name": "b2bspastoreCSR",
+      "path": "b2bspastore",
+      "ssr": {
+        "enabled": false,
         "path": "dist/b2bspastore/server/main.js"
       },
       "csr": {
